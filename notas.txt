@@ -1,0 +1,6 @@
+cosas por hacer: 
+arreglar problema de body-parse
+
+links:
+https://www.npmjs.com/package/body-parser
+https://stackoverflow.com/questions/9177049/express-js-req-body-undefined
