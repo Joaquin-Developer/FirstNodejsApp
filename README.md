@@ -5,7 +5,7 @@ Mi primer aplicación web backend con Node.Js
 - Npm (6.14.4), node (10.19.0) instalados
 
 ## Uso:
-- En `/` ejecutar el comando `npm run dev`
+- En `firstNodeJsApp/` ejecutar el comando `npm run dev`
 - En un navegador web, dirigirse a : `127.0.0.1:3000` (localhost, puerto 3000)
 
 ### Prueba de interacción con el backend desde el frontend:
@@ -26,4 +26,3 @@ router.post("/sendform", function(req, res) {
     res.json(respuesta);
 });
 ```
-
