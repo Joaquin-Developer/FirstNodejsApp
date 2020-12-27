@@ -12,7 +12,7 @@ Mi primer aplicación web backend con Node.Js
 - Dirigirse a `http://127.0.0.1:3000/contact`
 - Llenar el formulario y enviarlo.
 - En la consola (Ctrl + Shift + I en Chrome), se podrá visualizar la respuesta del backend
-- Código: 
+- Código del backend: 
 ```javascript
 router.post("/sendform", function(req, res) {
     const mail = req.body[0].mail;
