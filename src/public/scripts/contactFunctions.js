@@ -31,7 +31,7 @@ document.getElementById("btnSendForm").addEventListener("click", async function(
             // si todo salió good:
             let respuesta = await response.json();
             console.log(respuesta.mensaje1);
-            // console.log(respuesta.mensaje2);
+            console.log(respuesta.mensaje2);
 
         } else {
             throw new Error(response.statusText);
