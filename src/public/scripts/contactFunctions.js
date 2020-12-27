@@ -22,7 +22,7 @@ document.getElementById("btnSendForm").addEventListener("click", async function(
             },
             // el cuerpo de la petición es una cadena de texto 
             // con los datos en formato JSON
-            body: 'Hola'
+            body: JSON.stringify(datos)
         };
 
         let response = await fetch("/sendform", init);

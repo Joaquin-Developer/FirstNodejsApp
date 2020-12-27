@@ -14,10 +14,11 @@ router.get("/contact", function(req, res) {
 });
 
 router.post("/sendform", function(req, res) {
-    console.log(typeof req.body);
-    console.log(req.body);
-    // const datos = JSON.parse(req.body);
-    // datos.forEach(element => console.log(element));
+    console.log("Body:");
+    console.log("Mail: " + req.body[0].mail);
+    console.log("Mensaje: " + req.body[0].msg);
+    console.log("recorrido :");
+    // req.body.forEach(element => console.log(element));
     const respuesta = {mensaje1: "Formulario recibido correctamente!!"};
     res.json(respuesta);
 });
